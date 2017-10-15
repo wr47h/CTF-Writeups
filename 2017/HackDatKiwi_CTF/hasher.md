@@ -117,4 +117,5 @@ i: 29588 // hasher(i): 0e34131778
 i: 56392 // hasher(i): 0e64927533
 user: 29588 / password: 56392
 ```
-We send the username and password as POST data to the site using BurpSuite/Postman, and we get the result `Welcome! Flag is: g1diXbB2kfaGjS0V`
+We send the username and password as POST data to the site using BurpSuite/Postman, and we get the result:  
+ `Welcome! Flag is: g1diXbB2kfaGjS0V`
