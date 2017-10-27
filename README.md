@@ -4,7 +4,10 @@
 
 # 2017
 ### HackDatKiwi CTF 2017
-https://github.com/sc3ptr3/CTF-Writeups/tree/master/2017/HackDatKiwi_CTF
+https://github.com/wr47h/CTF-Writeups/tree/master/2017/HackDatKiwi_CTF
 
 ### Codefest CTF
-https://github.com/sc3ptr3/CTF-Writeups/tree/master/2017/Codefest_CTF
+https://github.com/wr47h/CTF-Writeups/tree/master/2017/Codefest_CTF
+
+### Oman National Cyber Security CTF
+https://github.com/wr47h/CTF-Writeups/tree/master/2017/OmanNationalCyberSecurityCTFQuals
