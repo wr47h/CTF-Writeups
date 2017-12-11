@@ -11,3 +11,6 @@ https://github.com/wr47h/CTF-Writeups/tree/master/2017/Codefest_CTF
 
 ### Oman National Cyber Security CTF
 https://github.com/wr47h/CTF-Writeups/tree/master/2017/OmanNationalCyberSecurityCTFQuals
+
+### SECCON 2017 Online CTF
+https://github.com/wr47h/CTF-Writeups/tree/master/2017/SECCON%202017%20Online%20CTF
