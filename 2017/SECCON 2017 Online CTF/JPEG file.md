@@ -38,7 +38,7 @@ This gives us the flag as
 ![](Images/flag.jpg).
 
 --------
-Another method is to try flipping all the bits, by the foloowing script
+Another method is to try flipping all the bits, by the following script
 ```python
 with open("broken.jpg") as f:
     a = f.read()
