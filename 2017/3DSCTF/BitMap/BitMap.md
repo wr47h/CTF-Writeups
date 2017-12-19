@@ -1,4 +1,4 @@
-# Wargames, Forensics, 500pts
+# BitMap, Forensics, 500pts
 
 ## Problem
 
