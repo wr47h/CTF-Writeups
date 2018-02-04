@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html class="gr__rootnetsec_com"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SharifCTF 2018 - hidden – Root Network Security</title>
+    <link rel="dns-prefetch" href="https://maxcdn.bootstrapcdn.com/">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Beginners's journey through the world of security, programming and system administration. In love with GNU/Linux and cryptography.">
+    <meta name="robots" content="all">
+    <meta name="author" content="W3ndige">
+    
+    <meta name="keywords" content="Write-Ups">
+    <link rel="canonical" href="https://www.rootnetsec.com/sharifctf-hidden/">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Root Network Security" href="https://www.rootnetsec.com/feed.xml">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/pixyll.css" type="text/css">
+
+    <!-- Fonts -->
+    
+    <link href="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/css.css" rel="stylesheet" type="text/css">
+    <link href="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/css_002.css" rel="stylesheet" type="text/css">
+    
+    
+      <link href="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/font-awesome.css" rel="stylesheet">
+    
+
+    <!-- MathJax -->
+    
+
+    <!-- Verifications -->
+    
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="SharifCTF 2018 - hidden">
+    <meta property="og:description" content="Beginners's journey through the world of security, programming and system administration. In love with GNU/Linux and cryptography.">
+    <meta property="og:url" content="https://www.rootnetsec.com/sharifctf-hidden/">
+    <meta property="og:site_name" content="Root Network Security">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    
+    <meta name="twitter:title" content="SharifCTF 2018 - hidden">
+    <meta name="twitter:description" content="Beginners's journey through the world of security, programming and system administration. In love with GNU/Linux and cryptography.">
+    <meta name="twitter:url" content="https://www.rootnetsec.com/sharifctf-hidden/">
+    
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.rootnetsec.com/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.rootnetsec.com/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.rootnetsec.com/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.rootnetsec.com/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.rootnetsec.com/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.rootnetsec.com/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.rootnetsec.com/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.rootnetsec.com/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.rootnetsec.com/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://www.rootnetsec.com/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://www.rootnetsec.com/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="https://www.rootnetsec.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.rootnetsec.com/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.rootnetsec.com/favicon-32x32.png" sizes="32x32">
+
+    
+    <script async="" src="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/analytics.js"></script><script type="text/javascript">
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-92681943-1', 'auto');
+       ga('send', 'pageview');
+    </script>
+    
+</head>
+
+<body class="site" data-gr-c-s-loaded="true">
+  
+	
+
+  <div class="site-wrap">
+    <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="https://www.rootnetsec.com/" class="site-title">Root Network Security</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+        <a href="https://www.rootnetsec.com/about/">About</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a href="https://www.rootnetsec.com/archive/">Archive</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a href="https://www.rootnetsec.com/contact/">Contact</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a href="https://www.rootnetsec.com/projects/">Projects</a>
+    
+
+    
+
+    
+    
+    
+    
+        <a href="https://www.rootnetsec.com/resources/">Resources</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+      
+        <div class="social-icons">
+  <div class="social-icons-right">
+    <a class="fa fa-sun-o" id="change-theme-btn"></a>
+    
+      <a class="fa fa-github" href="https://github.com/W3ndige"></a>
+    
+    
+    <a class="fa fa-reddit" href="https://reddit.com/user/W3ndige"></a>
+    
+    
+    
+    <a class="fa fa-rss" href="https://www.rootnetsec.com/feed.xml"></a>
+    
+    
+    
+    
+    
+      <a class="fa fa-envelope" href="mailto:w3ndige@protonmail.com"></a>
+    
+    
+    
+    
+    
+    
+  </div>
+  <div class="right">
+    
+    
+    
+  </div>
+</div>
+<div class="clearfix"></div>
+
+      
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        
+
+
+<div class="post-header mb2">
+  <h1>SharifCTF 2018 - hidden</h1>
+  <span class="post-meta">Feb 3, 2018</span><br>
+  
+  <span class="post-meta small">
+  
+    3 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <p>Another challenge from <a href="http://ctf.certcc.ir/ctf8/">SharifCTF</a> called <strong><em>hidden</em></strong>.</p>
+
+<ul>
+  <li>Category: Forensics</li>
+  <li>Points: 100</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">Find the hidden process.<br data-jekyll-commonmark-ghpages=""><br data-jekyll-commonmark-ghpages="">The flag is SharifCTF{MD5(Process id)}.</code></pre></figure>
+
+<h3 id="solution">Solution</h3>
+
+<p>First inspections using the <code class="highlighter-rouge">file</code> command does not reveal a lot, but we seem to get what’s the content of the dump with the <code class="highlighter-rouge">strings</code> tool.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">main:~/projects/sharictf <span class="o">&gt;</span> file dump<br data-jekyll-commonmark-ghpages="">dump: data<br data-jekyll-commonmark-ghpages="">main:~/projects/sharictf <span class="o">&gt;</span> strings dump<br data-jekyll-commonmark-ghpages="">...<br data-jekyll-commonmark-ghpages="">Microsoft DH SChannel Cryptographic Provider<br data-jekyll-commonmark-ghpages="">dhTl<br data-jekyll-commonmark-ghpages="">vPrivateKeyInfoEncode<br data-jekyll-commonmark-ghpages="">IPSec Policy agent endpoint<br data-jekyll-commonmark-ghpages="">IPSec Policy agent endpoint<br data-jekyll-commonmark-ghpages="">IPSec Policy agent endpoint<br data-jekyll-commonmark-ghpages="">IPSec Policy agent endpoint<br data-jekyll-commonmark-ghpages="">IPSec Policy agent endpoint<br data-jekyll-commonmark-ghpages=""><span class="se">\P</span>IPE<span class="se">\l</span>sass<br data-jekyll-commonmark-ghpages=""><span class="se">\\</span>SECURE-CBE6C864<br data-jekyll-commonmark-ghpages="">...</code></pre></figure>
+
+<p>As we know that’s it’s the memory dump, I decided to run this awesome linux tool for memory dump analysis called <strong><em>Volatility</em></strong>. Firstly I’ll run it with <code class="highlighter-rouge">imageinfo</code> option that will show us basic information about the dump.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">main:~/projects/sharictf <span class="o">&gt;</span> volatility imageinfo <span class="nt">-f</span> dump<br data-jekyll-commonmark-ghpages="">Volatility Foundation Volatility Framework 2.6<br data-jekyll-commonmark-ghpages="">INFO    : volatility.debug    : Determining profile based on KDBG search...<br data-jekyll-commonmark-ghpages="">          Suggested Profile<span class="o">(</span>s<span class="o">)</span> : WinXPSP2x86, WinXPSP3x86 <span class="o">(</span>Instantiated with WinXPSP2x86<span class="o">)</span><br data-jekyll-commonmark-ghpages="">                     AS Layer1 : IA32PagedMemoryPae <span class="o">(</span>Kernel AS<span class="o">)</span><br data-jekyll-commonmark-ghpages="">                     AS Layer2 : FileAddressSpace <span class="o">(</span>/home/w3ndige/projects/sharictf/dump<span class="o">)</span><br data-jekyll-commonmark-ghpages="">                      PAE <span class="nb">type</span> : PAE<br data-jekyll-commonmark-ghpages="">                           DTB : 0x359000L<br data-jekyll-commonmark-ghpages="">                          KDBG : 0x80545c60L<br data-jekyll-commonmark-ghpages="">          Number of Processors : 1<br data-jekyll-commonmark-ghpages="">     Image Type <span class="o">(</span>Service Pack<span class="o">)</span> : 3<br data-jekyll-commonmark-ghpages="">                KPCR <span class="k">for </span>CPU 0 : 0xffdff000L<br data-jekyll-commonmark-ghpages="">             KUSER_SHARED_DATA : 0xffdf0000L<br data-jekyll-commonmark-ghpages="">           Image date and <span class="nb">time</span> : 2018-01-28 17:35:20 UTC+0000<br data-jekyll-commonmark-ghpages="">     Image <span class="nb">local </span>date and <span class="nb">time</span> : 2018-01-28 21:05:20 +0330</code></pre></figure>
+
+<p>From that information, the most essential one is the suggested profile <code class="highlighter-rouge">WinXPSP2x86</code>,
+ we’ll use it in later analysis. As we have to get the PID of the hidden
+ process, I decided to look into the documentation of this tool and here
+ it is - <code class="highlighter-rouge">psxview</code>.</p>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">This plugin helps you detect hidden processes by comparing what PsActiveProcessHead contains with what is reported by various other sources of process listings. It compares the following:</code></pre></figure>
+
+<p>Let’s run the analysis.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">main:~/projects/sharictf <span class="o">&gt;</span> volatility <span class="nt">--profile</span><span class="o">=</span>WinXPSP2x86 psxview <span class="nt">-f</span> dump<br data-jekyll-commonmark-ghpages="">Volatility Foundation Volatility Framework 2.6<br data-jekyll-commonmark-ghpages="">Offset<span class="o">(</span>P<span class="o">)</span>  Name                    PID pslist psscan thrdproc pspcid csrss session deskthrd ExitTime<br data-jekyll-commonmark-ghpages=""><span class="nt">----------</span> <span class="nt">--------------------</span> <span class="nt">------</span> <span class="nt">------</span> <span class="nt">------</span> <span class="nt">--------</span> <span class="nt">------</span> <span class="nt">-----</span> <span class="nt">-------</span> <span class="nt">--------</span> <span class="nt">--------</span><br data-jekyll-commonmark-ghpages="">0x010eb4c0 rundll32.exe            396 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01c279c0 svchost.exe             900 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01e64350 vmtoolsd.exe            404 False  True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x025b7020 explorer.exe           1576 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01e6d608 winlogon.exe            644 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01ecd378 svchost.exe             988 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x031b1cf0 spoolsv.exe            1508 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01fbe410 lsass.exe               700 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x0096c0e8 wscntfy.exe             920 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x039347a8 svchost.exe            1188 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x0308d9f0 svchost.exe            1604 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01c58798 vmacthlp.exe            856 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01de4878 svchost.exe            1236 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01bbd488 services.exe            688 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01fbd6e0 svchost.exe            1024 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x02e7eb20 svchost.exe            1692 True   True   False    True   True  True    True     <br data-jekyll-commonmark-ghpages="">0x01209a00 System                    4 True   True   False    True   False False   False    <br data-jekyll-commonmark-ghpages="">0x01bbd900 smss.exe                548 True   True   False    True   False False   False    <br data-jekyll-commonmark-ghpages="">0x021a7da0 csrss.exe               620 True   True   False    True   False True    True     <br data-jekyll-commonmark-ghpages="">0x02dbb448 wmiprvse.exe            908 False  True   False    False  False False   False    2018-01-28 17:34:22 UTC+0000<br data-jekyll-commonmark-ghpages="">0x01ebe168 cmd.exe                1704 False  True   False    False  False False   False    2018-01-28 17:34:00 UTC+0000</code></pre></figure>
+
+<p>Now we can see that the only process with false value is <code class="highlighter-rouge">vmtoolsd.exe</code> with PID <code class="highlighter-rouge">404</code>. The last step is to calculate MD5 hash out of that PID and submit the flag.</p>
+
+<p><code class="highlighter-rouge">SharifCTF{4f4adcbf8c6f66dcfc8a3282ac2bf10a}</code></p>
+
+<h3 id="tools">Tools</h3>
+<p><a href="https://github.com/volatilityfoundation/volatility">Volatility</a></p>
+
+<h3 id="references">References</h3>
+<p><a href="https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview">https://github.com/volatilityfoundation/volatility/wiki/Command-Reference-Mal#psxview</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=ceXT9fBGJaI">https://www.youtube.com/watch?v=ceXT9fBGJaI</a></p>
+
+  <p>Keep learning and stay safe! ~ W3ndige</p><p>
+</p></article>
+
+
+
+  <div class="share-page">
+  Share this post!
+
+  <div class="share-links">
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=SharifCTF+2018+-+hidden&amp;url=https%3A%2F%2Fwww.rootnetsec.com%2Fsharifctf-hidden%2F" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=https%3A%2F%2Fwww.rootnetsec.com%2Fsharifctf-hidden%2F&amp;title=SharifCTF+2018+-+hidden" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+    
+
+    
+
+    
+      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fwww.rootnetsec.com%2Fsharifctf-hidden%2F&amp;t=SharifCTF+2018+-+hidden" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="center">
+  <div class="measure">
+    <small>
+      Copyright © <a href="https://github.com/johnotander/pixyll">Root Network Security</a> 2016 - 2018
+    </small>
+  </div>
+</footer>
+<script data-cfasync="false" src="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/email-decode.js"></script><script src="SharifCTF%202018%20-%20hidden%20%E2%80%93%20Root%20Network%20Security_files/change-theme.js"></script>
+
+
+
+
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
