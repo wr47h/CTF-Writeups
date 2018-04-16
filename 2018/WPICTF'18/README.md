@@ -63,7 +63,7 @@ We use ltrace to see program flow.
 
 Running `ltrace WPI{1}`
 
-Gives output -
+Gives output -  
 ![](output.png)
 
 So we keep doing that, and finally get the flag - `WPI{strings_only_gives_you_wings,_you_still_have_to_learn_how_to_fly._try_hexedit}`.
