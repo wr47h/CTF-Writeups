@@ -24,3 +24,5 @@
 ### [AngstromCTF](https://github.com/wr47h/CTF-Writeups/tree/master/2018/AngstromCTF)
 
 ### [WPICTF'18](https://github.com/wr47h/CTF-Writeups/tree/master/2018/WPICTF'18)
+
+### [Hackcon'18](https://github.com/wr47h/CTF-Writeups/tree/master/2018/Hackcon'18)
