@@ -22,3 +22,5 @@
 ### [NeverLAN CTF](https://github.com/wr47h/CTF-Writeups/tree/master/2018/NeverLAN%20CTF%202018)
 
 ### [AngstromCTF](https://github.com/wr47h/CTF-Writeups/tree/master/2018/AngstromCTF)
+
+### [WPICTF'18](https://github.com/wr47h/CTF-Writeups/tree/master/2018/WPICTF'18)
