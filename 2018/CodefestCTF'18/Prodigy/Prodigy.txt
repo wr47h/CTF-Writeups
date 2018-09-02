@@ -1,0 +1,2 @@
+1. Set $eip = address of getFlag function
+2. Run through the function, final flag is on stack

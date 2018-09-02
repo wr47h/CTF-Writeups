@@ -1,0 +1,1 @@
+Remove some initial bytes from flag(7).jpg till you get the magic bytes.

@@ -1,0 +1,34 @@
+info functions
+disas getFlag
+q
+info functions
+disas getFlag
+q
+disas main
+b *0x08048660
+r
+set $eip=0x080484f0
+b *0x0804856d
+c
+r
+r
+r
+r
+r
+r
+set $eip=0x080484f0
+b *0x08048538
+info break
+del 2
+info break
+r
+c
+r
+set $eip=0x080484f0
+c
+nexti
+q
+info functions
+s main
+disas main
+q
