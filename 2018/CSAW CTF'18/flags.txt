@@ -1,0 +1,9 @@
+A Tour of x86 - Part 1 => flag{rev_up_y0ur_3ng1nes_reeeeeeeeeeeeecruit5!}
+Algebra => flag{y0u_s0_60od_aT_tH3_qU1cK_M4tH5}
+babycrypto => flag{diffie-hellman-g0ph3rzraOY1Jal4cHaFY9SWRyAQ6aH}
+get_it => flag{y0u_deF_get_itls}
+bigboy => flag{Y0u_Arrre_th3_Bi66Est_of_boiiiiis}
+Ldab => flag{ld4p_inj3ction_i5_a_th1ng}
+bin_t => flag{HOW_WAS_IT_NAVIGATING_THAT_FOREST?}
+Take an L => flag{m@n_that_was_sup3r_hard_i_sh0uld_have_just_taken_the_L}
+shell->code => flag{NONONODE_YOU_WRECKED_BRO}
