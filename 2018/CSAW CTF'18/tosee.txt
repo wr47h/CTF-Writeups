@@ -1,6 +1,6 @@
 shell->code (Done)
-flatcrypt
+flatcrypt (Tough will have to read theory)
 Short Circuit
 A Tour of x86 - Part 2
-Simple Recovery
+Simple Recovery (Done)
 KVM (Fun) (Couldn't understand :p)

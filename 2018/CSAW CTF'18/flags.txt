@@ -7,3 +7,4 @@ Ldab => flag{ld4p_inj3ction_i5_a_th1ng}
 bin_t => flag{HOW_WAS_IT_NAVIGATING_THAT_FOREST?}
 Take an L => flag{m@n_that_was_sup3r_hard_i_sh0uld_have_just_taken_the_L}
 shell->code => flag{NONONODE_YOU_WRECKED_BRO}
+Simple Recovery => flag{dis_week_evry_week_dnt_be_securty_weak}
