@@ -2,6 +2,7 @@
 
 - [2017 Writeups](#2017)
 - [2018 Writeups](#2018)
+- [2019 Writeups](#2019)
 
 # 2017
 ### [HackDatKiwi CTF 2017](https://github.com/wr47h/CTF-Writeups/tree/master/2017/HackDatKiwi_CTF)
@@ -30,3 +31,6 @@
 ### [CodefestCTF'18](https://github.com/wr47h/CTF-Writeups/tree/master/2018/CodefestCTF'18)
 
 ### [CSAW CTF'18](https://github.com/wr47h/CTF-Writeups/tree/master/2018/CSAW%20CTF'18)
+
+# 2019
+### [CONFidence CTF 2019](https://github.com/wr47h/CTF-Writeups/tree/master/2019/CONFidence%20CTF%202019/Admin%20Panel)
