@@ -33,4 +33,4 @@
 ### [CSAW CTF'18](https://github.com/wr47h/CTF-Writeups/tree/master/2018/CSAW%20CTF'18)
 
 # 2019
-### [CONFidence CTF 2019](https://github.com/wr47h/CTF-Writeups/tree/master/2019/CONFidence%20CTF%202019/Admin%20Panel)
+### [CONFidence CTF 2019](https://github.com/wr47h/CTF-Writeups/tree/master/2019/CONFidence%20CTF%202019/)
