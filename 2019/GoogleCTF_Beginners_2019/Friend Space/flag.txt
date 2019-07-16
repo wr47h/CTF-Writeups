@@ -1,0 +1,3 @@
+http://emoji-t0anaxnr3nacpt4na.web.ctfcompetition.com/humans_and_cauliflowers_network/
+
+CTF{Peace_from_Cauli!}

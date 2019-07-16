@@ -1,0 +1,2 @@
+README.flag - CTF{4ll_D474_5h4ll_B3_Fr33}
+ORME.flag - CTF{Th3r3_1s_4lw4y5_4N07h3r_W4y}

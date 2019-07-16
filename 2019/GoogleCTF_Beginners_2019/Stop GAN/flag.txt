@@ -1,0 +1,2 @@
+Flag1 = CTF{Why_does_cauliflower_threaten_us}
+Flag2 = CTF{controlled_crash_causes_conditional_correspondence}

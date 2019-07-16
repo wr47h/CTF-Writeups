@@ -1,0 +1,2 @@
+Flag = CTF{3mbr4c3_the_c00k1e_w0r1d_ord3r}
+Flag2 = CTF{WhatIsThisCookieFriendSpaceBookPlusAllAccessRedPremiumThingLooksYummy}
