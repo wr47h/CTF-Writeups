@@ -1,0 +1,13 @@
+Command Injection since substitution takes place using sed. Something like `echo $1 | sed 's/$2/$3/g'`
+
+So,
+
+$(ls)
+
+then
+
+'$(ls)'
+
+later
+
+'$(cat flag.txt)'
