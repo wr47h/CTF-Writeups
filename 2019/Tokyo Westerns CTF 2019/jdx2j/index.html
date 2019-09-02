@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>JSON <-> XML Converter</title>
+  </head>
+  <body>
+    <textarea id="json" name="json" rows="50" cols="80">
+    </textarea>
+
+    <input type="button" id="x2j" value="<-"/>
+    <input type="button" id="j2x" value="->"/>
+
+    <textarea id="xml" name="xml" rows="50" cols="80">
+    </textarea>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script>
+      $.get('/sample.json', function(data) {
+        $('#json').val(data);
+      }, 'text');
+
+      $('#j2x').on('click', function() {
+        $.post('/', {
+          json: $('#json').val()
+        }, function(data) {
+          $('#xml').val(data);
+        });
+      });
+
+      $('#x2j').on('click', function() {
+        $.post('/', {
+          xml: $('#xml').val()
+        }, function(data) {
+          $('#json').val(data);
+        });
+      });
+    </script>
+  </body>
+</html>
