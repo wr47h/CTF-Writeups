@@ -1,0 +1,1 @@
+Leak entire binary using format string vuln because PIE is disabled.
