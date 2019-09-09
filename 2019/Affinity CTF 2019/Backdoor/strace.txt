@@ -1,0 +1,143 @@
+execve("./mkfifov", ["./mkfifov"], [/* 86 vars */]) = 0
+brk(NULL)                               = 0x562c2ad0d000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=195672, ...}) = 0
+mmap(NULL, 195672, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f51ad295000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f51ad294000
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51accd6000
+mprotect(0x7f51ace96000, 2097152, PROT_NONE) = 0
+mmap(0x7f51ad096000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f51ad096000
+mmap(0x7f51ad09c000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f51ad09c000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f51ad293000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f51ad292000
+arch_prctl(ARCH_SET_FS, 0x7f51ad293700) = 0
+mprotect(0x7f51ad096000, 16384, PROT_READ) = 0
+mprotect(0x562c29b60000, 4096, PROT_READ) = 0
+mprotect(0x7f51ad2c5000, 4096, PROT_READ) = 0
+munmap(0x7f51ad295000, 195672)          = 0
+geteuid()                               = 1000
+getuid()                                = 1000
+execve("/usr/local/cuda-9.1/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/shreyansh/.nvm/versions/node/v6.12.2/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/shreyansh/Desktop/Projects/Projects/Blockchain/Proj1/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/local/go/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/shreyansh/.cargo/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/local/cuda-9.1/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/shreyansh/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/home/shreyansh/.local/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/local/sbin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/local/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/sbin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = -1 ENOENT (No such file or directory)
+execve("/usr/bin/mkfifo", ["./mkfifov"], [/* 86 vars */]) = 0
+brk(NULL)                               = 0xcf5000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=195672, ...}) = 0
+mmap(NULL, 195672, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fed4be72000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=130224, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fed4be71000
+mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fed4ba5b000
+mprotect(0x7fed4ba7a000, 2093056, PROT_NONE) = 0
+mmap(0x7fed4bc79000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7fed4bc79000
+mmap(0x7fed4bc7b000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fed4bc7b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fed4b691000
+mprotect(0x7fed4b851000, 2097152, PROT_NONE) = 0
+mmap(0x7fed4ba51000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7fed4ba51000
+mmap(0x7fed4ba57000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fed4ba57000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=456632, ...}) = 0
+mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fed4b421000
+mprotect(0x7fed4b48f000, 2097152, PROT_NONE) = 0
+mmap(0x7fed4b68f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6e000) = 0x7fed4b68f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fed4be70000
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fed4b21d000
+mprotect(0x7fed4b220000, 2093056, PROT_NONE) = 0
+mmap(0x7fed4b41f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fed4b41f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fed4b000000
+mprotect(0x7fed4b018000, 2093056, PROT_NONE) = 0
+mmap(0x7fed4b217000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fed4b217000
+mmap(0x7fed4b219000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fed4b219000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fed4be6f000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fed4be6d000
+arch_prctl(ARCH_SET_FS, 0x7fed4be6d800) = 0
+mprotect(0x7fed4ba51000, 16384, PROT_READ) = 0
+mprotect(0x7fed4b217000, 4096, PROT_READ) = 0
+mprotect(0x7fed4b41f000, 4096, PROT_READ) = 0
+mprotect(0x7fed4b68f000, 4096, PROT_READ) = 0
+mprotect(0x7fed4bc79000, 4096, PROT_READ) = 0
+mprotect(0x60d000, 4096, PROT_READ)     = 0
+mprotect(0x7fed4bea2000, 4096, PROT_READ) = 0
+munmap(0x7fed4be72000, 195672)          = 0
+set_tid_address(0x7fed4be6dad0)         = 25481
+set_robust_list(0x7fed4be6dae0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7fed4b005b50, [], SA_RESTORER|SA_SIGINFO, 0x7fed4b011390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fed4b005be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fed4b011390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+statfs("/sys/fs/selinux", 0x7fff9c99f2f0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7fff9c99f2f0)      = -1 ENOENT (No such file or directory)
+brk(NULL)                               = 0xcf5000
+brk(0xd16000)                           = 0xd16000
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 418
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2981280, ...}) = 0
+mmap(NULL, 2981280, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fed4ad28000
+close(3)                                = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2995
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=619, ...}) = 0
+mmap(NULL, 619, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fed4bea1000
+close(3)                                = 0
+write(2, "./mkfifov: ", 11./mkfifov: )             = 11
+write(2, "missing operand", 15missing operand)         = 15
+write(2, "\n", 1
+)                       = 1
+write(2, "Try './mkfifov --help' for more "..., 45Try './mkfifov --help' for more information.
+) = 45
+close(1)                                = 0
+close(2)                                = 0
+exit_group(1)                           = ?
++++ exited with 1 +++

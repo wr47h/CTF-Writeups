@@ -1,0 +1,127 @@
+Frame 1438: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 10.0.2.15, Dst: 10.0.2.15
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+        0001 00.. = Differentiated Services Codepoint: Unknown (4)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 55
+    Identification: 0x9f22 (40738)
+    Flags: 0x4000, Don't fragment
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x8371 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.2.15
+    Destination: 10.0.2.15
+Transmission Control Protocol, Src Port: 39966, Dst Port: 25, Seq: 238, Ack: 353, Len: 3
+    Source Port: 39966
+    Destination Port: 25
+    [Stream index: 1]
+    [TCP Segment Len: 3]
+    Sequence number: 238    (relative sequence number)
+    [Next sequence number: 241    (relative sequence number)]
+    Acknowledgment number: 353    (relative ack number)
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 342
+    [Calculated window size: 43776]
+    [Window size scaling factor: 128]
+    Checksum: 0x1847 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+        [iRTT: 0.000022851 seconds]
+        [Bytes in flight: 3]
+        [Bytes sent since last PSH flag: 3]
+    [Timestamps]
+    TCP payload (3 bytes)
+Simple Mail Transfer Protocol
+    C: .
+    [1 DATA fragment (46 bytes): #1436(46)]
+Internet Message Format
+    Message-Text
+        the password is Horse Battery Staple Correct  
+
+AFFCTF{Horse Battery Staple Correct}
+
+Frame 2748: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+Internet Protocol Version 4, Src: 10.0.2.15, Dst: 10.0.2.15
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 99
+    Identification: 0x3824 (14372)
+    Flags: 0x4000, Don't fragment
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0xea53 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.2.15
+    Destination: 10.0.2.15
+Transmission Control Protocol, Src Port: 21, Dst Port: 53220, Seq: 97, Ack: 29, Len: 47
+    Source Port: 21
+    Destination Port: 53220
+    [Stream index: 74]
+    [TCP Segment Len: 47]
+    Sequence number: 97    (relative sequence number)
+    [Next sequence number: 144    (relative sequence number)]
+    Acknowledgment number: 29    (relative ack number)
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 342
+    [Calculated window size: 43776]
+    [Window size scaling factor: 128]
+    Checksum: 0x1873 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 2747]
+        [The RTT to ACK the segment was: 0.000138328 seconds]
+        [iRTT: 0.000024366 seconds]
+        [Bytes in flight: 47]
+        [Bytes sent since last PSH flag: 47]
+    [Timestamps]
+    TCP payload (47 bytes)
+File Transfer Protocol (FTP)
+    227 Entering Passive Mode (10,0,2,15,93,141).\r\n
+        Response code: Entering Passive Mode (227)
+        Response arg: Entering Passive Mode (10,0,2,15,93,141).
+        Passive IP address: 10.0.2.15
+        Passive port: 23949
+[Current working directory: ]
+[Command: LIST]
+[Command frame: 2753]
+
+
+VimCrypt~03!\344\t\204\311\303\334\026\363\320\216=E, \356\202\251\233\251\375\225\236\223f9[J\275\03582L\340rk\O\277\235C\326*M\215f\263\026\036Vh\027\271\023\352C\207\237
+
+VimCrypt~03!\344\t\204\311\303\334\026\363\320\216=E, \356\202\251\233\251\375\225\236\223f9[J\275\03582L\340rk\O\277\235C\326*M\215f\263\026\036Vh\027\271\023\352C\207\237
