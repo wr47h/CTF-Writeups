@@ -1,0 +1,444 @@
+Scanning for registries....
+Gathering shellbag items and building path tree...
+***************************************************************************
+Registry: \??\C:\Users\SlimShady\ntuser.dat 
+Key: Software\Microsoft\Windows\Shell\Bags\1\Desktop
+Last updated: 2019-06-27 15:06:46 UTC+0000
+Value                     File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Unicode Name
+------------------------- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ------------
+ItemPos800x600x96(1)      GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos800x600x96(1)      IMPORT~1.TXT   2019-06-26 15:28:18 UTC+0000   2019-06-26 12:02:20 UTC+0000   2019-06-26 12:02:20 UTC+0000   ARC                       Important.txt 
+ItemPos1366x660x96(1)     GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos1366x660x96(1)     IMPORT~1.TXT   2019-06-26 12:24:32 UTC+0000   2019-06-26 12:02:20 UTC+0000   2019-06-26 12:02:20 UTC+0000   ARC                       Important.txt 
+ItemPos640x480x96(1)      GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos640x480x96(1)      IMPORT~1.TXT   2019-06-27 13:26:14 UTC+0000   2019-06-27 13:14:14 UTC+0000   2019-06-27 13:14:14 UTC+0000   ARC                       Important.txt 
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\ntuser.dat 
+Key: Software\Microsoft\Windows\Shell\Bags\1\Desktop
+Last updated: 2019-06-27 15:06:50 UTC+0000
+Value                     File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Unicode Name
+------------------------- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ------------
+ItemPos800x600x96(1)      GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos800x600x96(1)      DumpIt         2019-06-26 12:44:40 UTC+0000   2019-06-25 12:20:08 UTC+0000   2019-06-26 12:44:40 UTC+0000   DIR                       DumpIt 
+ItemPos800x600x96(1)      DumpIt.zip     2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   ARC                       DumpIt.zip 
+ItemPos800x600x96(1)      GALF~1.JPE     2019-06-25 12:45:36 UTC+0000   2019-06-25 12:46:54 UTC+0000   2019-06-25 12:46:54 UTC+0000   ARC                       galf.jpeg 
+ItemPos1366x660x96(1)     GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos1366x660x96(1)     DumpIt         2019-06-26 15:44:46 UTC+0000   2019-06-25 12:20:08 UTC+0000   2019-06-26 15:44:46 UTC+0000   DIR                       DumpIt 
+ItemPos1366x660x96(1)     DumpIt.zip     2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   ARC                       DumpIt.zip 
+ItemPos1366x660x96(1)     GALF~1.JPE     2019-06-25 12:45:36 UTC+0000   2019-06-25 12:46:54 UTC+0000   2019-06-25 12:46:54 UTC+0000   ARC                       galf.jpeg 
+ItemPos1366x768x96(1)     GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos1366x768x96(1)     DumpIt         2019-06-27 12:05:04 UTC+0000   2019-06-25 12:20:08 UTC+0000   2019-06-27 12:05:04 UTC+0000   DIR                       DumpIt 
+ItemPos1366x768x96(1)     DumpIt.zip     2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   ARC                       DumpIt.zip 
+ItemPos1366x768x96(1)     GALF~1.JPE     2019-06-25 12:45:36 UTC+0000   2019-06-25 12:46:54 UTC+0000   2019-06-25 12:46:54 UTC+0000   ARC                       galf.jpeg 
+ItemPos640x480x96(1)      GOOGLE~1.LNK   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   2019-06-24 15:54:14 UTC+0000   ARC                       Google Chrome.lnk 
+ItemPos640x480x96(1)      DumpIt         2019-06-27 12:23:34 UTC+0000   2019-06-25 12:20:08 UTC+0000   2019-06-27 12:23:34 UTC+0000   DIR                       DumpIt 
+ItemPos640x480x96(1)      DumpIt.zip     2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   2019-06-25 12:19:24 UTC+0000   ARC                       DumpIt.zip 
+ItemPos640x480x96(1)      GALF~1.JPE     2019-06-25 12:45:36 UTC+0000   2019-06-25 12:46:54 UTC+0000   2019-06-25 12:46:54 UTC+0000   ARC                       galf.jpeg 
+ItemPos640x480x96(1)      SCREEN~1.PNG   2019-06-27 13:10:58 UTC+0000   2019-06-27 13:12:16 UTC+0000   2019-06-27 13:12:16 UTC+0000   ARC                       Screenshot1.png 
+ItemPos640x480x96(1)      FLAGNO~1.BMP   2019-06-27 13:26:52 UTC+0000   2019-06-27 13:26:52 UTC+0000   2019-06-27 13:26:52 UTC+0000   ARC                       Flag not here.bmp 
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU
+Last updated: 2019-06-29 07:29:21 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+1       1     Folder Entry   20d04fe0-3aea-1069-a2d8-08002b30309d     My Computer          EXPLORER, MY_COMPUTER 
+0       2     Folder Entry   031e4825-7b94-4dc3-b131-e946b44c8dd5     Libraries            EXPLORER, LIBRARIES 
+3       4     Folder Entry   59031a47-3f72-44a7-89c5-5595fe6b30ee     Users                EXPLORER, USERS 
+2       3     Folder Entry   26ee0668-a00a-44d7-9371-beb064c98683     {Unknown CSIDL}      EXPLORER, MY_COMPUTER, RECYCLE_BIN, UKNOWN 
+
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+4       0     DumpIt         1970-01-01 00:00:00 UTC+0000   1970-01-01 00:00:00 UTC+0000   1970-01-01 00:00:00 UTC+0000   DIR                       DumpIt
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1
+Last updated: 2019-06-26 12:27:04 UTC+0000
+Value   Mru   Entry Type     Path
+------- ----- -------------- ----
+1       1     Volume Name    C:\ 
+0       2     Volume Name    D:\ 
+2       0     Volume Name    Z:\ 
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\3
+Last updated: 2019-06-25 12:12:06 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+0       0     Folder         374de290-123f-4565-9164-39c4925e467b     Downloads            EXPLORER 
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1
+Last updated: 2019-06-25 15:06:25 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       2     PROGRA~2       2019-06-24 15:54:18 UTC+0000   2009-07-14 03:20:10 UTC+0000   2019-06-24 15:54:18 UTC+0000   RO, DIR                   C:\Program Files (x86)
+0       1     Users          2019-06-24 15:10:20 UTC+0000   2009-07-14 03:20:10 UTC+0000   2019-06-24 15:10:20 UTC+0000   RO, DIR                   C:\Users
+2       0     PROGRA~1       2019-06-24 15:13:22 UTC+0000   2009-07-14 03:20:10 UTC+0000   2019-06-24 15:13:22 UTC+0000   RO, DIR                   C:\Program Files
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\2
+Last updated: 2019-06-27 13:12:06 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       2     Documents      2019-06-24 14:22:32 UTC+0000   2019-06-24 14:22:32 UTC+0000   2019-06-24 14:30:16 UTC+0000   DIR                       Z:\Documents
+0       1     Desktop        2019-06-25 12:27:42 UTC+0000   2019-06-25 12:27:42 UTC+0000   2019-06-25 12:27:50 UTC+0000   DIR                       Z:\Desktop
+3       0     Pictures       2019-06-27 13:09:12 UTC+0000   2019-06-27 13:09:12 UTC+0000   2019-06-27 13:09:18 UTC+0000   DIR                       Z:\Pictures
+2       3     Downloads      2019-06-24 15:55:12 UTC+0000   2019-06-24 15:55:12 UTC+0000   2019-06-24 15:55:32 UTC+0000   DIR                       Z:\Downloads
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0
+Last updated: 2019-06-24 15:46:58 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+0       0     Control Panel  ed834ed6-4b5a-4bfe-8f11-a626dcb6a921     Personalization      EXPLORER, MY_GAMES 
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\1
+Last updated: 2019-06-26 11:57:30 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+0       0     Control Panel  60632754-c523-4b62-b45c-4172da012619     User Accounts        EXPLORER, MY_GAMES 
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\3\0
+Last updated: 2019-06-25 12:42:48 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     Comae-Toolkit-Light-3.0.20190504.1 1970-01-01 00:00:00 UTC+0000   1970-01-01 00:00:00 UTC+0000   1970-01-01 00:00:00 UTC+0000   DIR                       Comae-Toolkit-Light-3.0.20190504.1
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\0
+Last updated: 2019-06-25 15:06:24 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     eminem         2019-06-24 15:10:44 UTC+0000   2019-06-24 15:10:20 UTC+0000   2019-06-24 15:10:44 UTC+0000   DIR                       C:\Users\eminem
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\1
+Last updated: 2019-06-25 15:06:23 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       1     REFERE~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files (x86)\Reference Assemblies
+0       2     MSBuild        2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files (x86)\MSBuild
+2       0     WINDOW~3       2010-11-21 07:06:52 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files (x86)\Windows Defender
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2
+Last updated: 2019-06-25 15:08:05 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+11      2     WI0FCF~1       2010-11-21 07:16:56 UTC+0000   2010-11-21 07:16:56 UTC+0000   2010-11-21 07:17:12 UTC+0000   DIR                       C:\Program Files\Windows Journal
+10      3     MICROS~1       2010-11-21 07:16:56 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:16:56 UTC+0000   DIR                       C:\Program Files\Microsoft Games
+1       6     INTERN~1       2010-11-21 07:06:52 UTC+0000   2009-07-14 03:20:10 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Internet Explorer
+0       5     DVDMAK~1       2010-11-21 07:16:56 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:16:56 UTC+0000   DIR                       C:\Program Files\DVD Maker
+3       9     WINDOW~2       2009-07-14 05:32:40 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Windows NT
+2       0     REFERE~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Reference Assemblies
+5       11    WIBFE5~1       2010-11-21 03:31:36 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 03:31:36 UTC+0000   DIR                       C:\Program Files\Windows Portable Devices
+4       10    WINDOW~4       2010-11-21 07:06:52 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Windows Photo Viewer
+7       7     WINDOW~1       2010-11-21 07:06:52 UTC+0000   2009-07-14 03:20:10 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Windows Mail
+6       8     WI54FB~1       2010-11-21 07:06:52 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Windows Media Player
+9       4     COMMON~1       2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   DIR                       C:\Program Files\Common Files
+8       1     WINDOW~3       2010-11-21 07:06:52 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Windows Defender
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\2\0
+Last updated: 2019-06-27 12:11:14 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       2     CTF            2019-06-24 12:34:18 UTC+0000   2019-06-24 12:34:18 UTC+0000   2019-06-25 12:38:42 UTC+0000   DIR                       Z:\Desktop\CTF
+0       0     InCTF          2019-06-25 12:27:42 UTC+0000   2019-06-25 12:27:42 UTC+0000   2019-06-25 12:27:42 UTC+0000   DIR                       Z:\Desktop\InCTF
+2       1     GoogleCTF      2019-06-23 11:44:00 UTC+0000   2019-06-24 12:25:34 UTC+0000   2019-06-25 12:34:44 UTC+0000   DIR                       Z:\Desktop\GoogleCTF
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\1\0
+Last updated: 2019-06-26 11:57:30 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+0       0     Folder (unsupported) This property is not yet supported                             
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\3\0\0
+Last updated: 2019-06-25 12:12:07 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     x86            2019-06-25 12:12:08 UTC+0000   2019-06-25 12:12:06 UTC+0000   2019-06-25 12:12:08 UTC+0000   DIR                       Comae-Toolkit-Light-3.0.20190504.1\x86
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\0\0
+Last updated: 2019-06-25 12:19:50 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       1     Desktop        2019-06-25 12:19:24 UTC+0000   2019-06-24 15:10:22 UTC+0000   2019-06-25 12:19:24 UTC+0000   RO, DIR                   C:\Users\eminem\Desktop
+0       0     DOWNLO~1       2019-06-25 12:11:58 UTC+0000   2019-06-24 15:10:22 UTC+0000   2019-06-25 12:11:58 UTC+0000   RO, DIR                   C:\Users\eminem\Downloads
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\1\0
+Last updated: 2019-06-25 15:06:15 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     MICROS~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files (x86)\MSBuild\Microsoft
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\0
+Last updated: 2019-06-25 15:07:14 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       0     en-US          2010-11-21 07:16:56 UTC+0000   2010-11-21 07:06:52 UTC+0000   2010-11-21 07:17:12 UTC+0000   DIR                       C:\Program Files\DVD Maker\en-US
+0       1     Shared         2010-11-21 07:16:56 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:16:56 UTC+0000   DIR                       C:\Program Files\DVD Maker\Shared
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\11
+Last updated: 2019-06-25 15:07:55 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       0     en-US          2010-11-21 07:16:56 UTC+0000   2010-11-21 07:16:56 UTC+0000   2010-11-21 07:17:14 UTC+0000   DIR                       C:\Program Files\Windows Journal\en-US
+0       1     TEMPLA~1       2010-11-21 07:16:56 UTC+0000   2010-11-21 07:16:56 UTC+0000   2010-11-21 07:17:12 UTC+0000   DIR                       C:\Program Files\Windows Journal\Templates
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\2
+Last updated: 2019-06-25 15:08:07 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     MICROS~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Reference Assemblies\Microsoft
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\3
+Last updated: 2019-06-25 15:06:37 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       0     ACCESS~1       2010-11-21 07:06:52 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Windows NT\Accessories
+0       1     TABLET~1       2010-11-21 07:06:52 UTC+0000   2009-07-14 03:20:10 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Windows NT\TableTextService
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\4
+Last updated: 2019-06-25 15:06:33 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     en-US          2010-11-21 07:06:52 UTC+0000   2010-11-21 07:06:52 UTC+0000   2010-11-21 07:07:00 UTC+0000   DIR                       C:\Program Files\Windows Photo Viewer\en-US
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\6
+Last updated: 2019-06-25 15:06:53 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       4     Skins          2010-11-21 03:31:34 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 03:31:34 UTC+0000   DIR                       C:\Program Files\Windows Media Player\Skins
+0       1     Icons          2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Windows Media Player\Icons
+3       2     MEDIAR~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Windows Media Player\Media Renderer
+2       3     NETWOR~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Windows Media Player\Network Sharing
+4       0     en-US          2010-11-21 07:06:52 UTC+0000   2010-11-21 07:06:52 UTC+0000   2010-11-21 07:06:58 UTC+0000   DIR                       C:\Program Files\Windows Media Player\en-US
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\8
+Last updated: 2019-06-25 15:08:04 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     en-US          2010-11-21 07:06:52 UTC+0000   2010-11-21 07:06:52 UTC+0000   2010-11-21 07:07:00 UTC+0000   DIR                       C:\Program Files\Windows Defender\en-US
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\9
+Last updated: 2019-06-25 15:07:19 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       0     SPEECH~1       2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   DIR                       C:\Program Files\Common Files\SpeechEngines
+0       1     Services       2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   DIR                       C:\Program Files\Common Files\Services
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\2\0\0
+Last updated: 2019-06-27 12:11:16 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       1     Nihith         2019-06-25 12:02:26 UTC+0000   2019-06-25 12:02:26 UTC+0000   2019-06-26 12:12:24 UTC+0000   DIR                       Z:\Desktop\InCTF\Nihith
+0       0     Challenge2     2019-06-25 12:27:48 UTC+0000   2019-06-25 12:27:48 UTC+0000   2019-06-25 12:27:56 UTC+0000   DIR                       Z:\Desktop\InCTF\Challenge2
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\2\0\1
+Last updated: 2019-06-25 15:09:53 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     CTF            2019-06-24 12:58:50 UTC+0000   2019-06-24 12:58:50 UTC+0000   2019-06-25 13:30:24 UTC+0000   DIR                       Z:\Desktop\CTF\CTF
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\1\0\0
+Last updated: 2019-06-26 11:59:55 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+1       0     Folder (unsupported) This property is not yet supported                             
+0       1     Folder (unsupported) This property is not yet supported                             
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\0\0\0
+Last updated: 2019-06-25 12:19:50 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     COMAE-~1.1     2019-06-25 12:12:06 UTC+0000   2019-06-25 12:12:06 UTC+0000   2019-06-25 12:12:06 UTC+0000   DIR                       C:\Users\eminem\Downloads\Comae-Toolkit-Light-3.0.20190504.1
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\1\0\0
+Last updated: 2019-06-25 15:06:16 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     WINDOW~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files (x86)\MSBuild\Microsoft\Windows Workflow Foundation
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\2\0
+Last updated: 2019-06-25 15:08:08 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     FRAMEW~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Reference Assemblies\Microsoft\Framework
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\3\1
+Last updated: 2019-06-25 15:06:39 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     en-US          2010-11-21 07:06:52 UTC+0000   2010-11-21 07:06:52 UTC+0000   2010-11-21 07:07:02 UTC+0000   DIR                       C:\Program Files\Windows NT\Accessories\en-US
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\9\1
+Last updated: 2019-06-25 15:07:19 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     MICROS~1       2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   DIR                       C:\Program Files\Common Files\SpeechEngines\Microsoft
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\2\0\0\0
+Last updated: 2019-06-27 12:05:48 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       1     New folder     2019-06-27 12:05:48 UTC+0000   2019-06-27 12:05:48 UTC+0000   2019-06-27 12:05:48 UTC+0000   DIR                       Z:\Desktop\InCTF\Challenge2\New folder
+0       0     New            2019-06-26 14:40:30 UTC+0000   2019-06-26 14:40:30 UTC+0000   2019-06-26 14:40:30 UTC+0000   DIR                       Z:\Desktop\InCTF\Challenge2\New
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\1\0\0\1
+Last updated: 2019-06-26 12:00:19 UTC+0000
+Value   Mru   Entry Type     GUID                                     GUID Description     Folder IDs
+------- ----- -------------- ---------------------------------------- -------------------- ----------
+0       0     Folder (unsupported) This property is not yet supported                             
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\1\0\0\0
+Last updated: 2019-06-25 15:06:17 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     v3.0           2009-07-14 05:32:42 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:42 UTC+0000   DIR                       C:\Program Files (x86)\MSBuild\Microsoft\Windows Workflow Foundation\v3.0
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\2\0\0
+Last updated: 2019-06-25 15:08:09 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+1       0     v3.0           2010-11-21 03:31:34 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 03:31:34 UTC+0000   DIR                       C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+0       1     v3.5           2010-11-21 03:31:32 UTC+0000   2009-07-14 05:32:40 UTC+0000   2010-11-21 03:31:32 UTC+0000   DIR                       C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\9\1\0
+Last updated: 2019-06-25 15:07:20 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     TTS20          2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   DIR                       C:\Program Files\Common Files\SpeechEngines\Microsoft\TTS20
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\2\0\0\1
+Last updated: 2019-06-25 15:08:11 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     REDIST~1       2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   2009-07-14 05:32:40 UTC+0000   DIR                       C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\RedistList
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\9\1\0\0
+Last updated: 2019-06-25 15:07:22 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     en-US          2010-11-21 07:06:52 UTC+0000   2009-07-14 03:20:10 UTC+0000   2010-11-21 07:06:52 UTC+0000   DIR                       C:\Program Files\Common Files\SpeechEngines\Microsoft\TTS20\en-US
+***************************************************************************
+
+***************************************************************************
+Registry: \??\C:\Users\eminem\AppData\Local\Microsoft\Windows\UsrClass.dat 
+Key: Local Settings\Software\Microsoft\Windows\Shell\BagMRU\1\1\2\9\1\0\0\0
+Last updated: 2019-06-25 15:07:23 UTC+0000
+Value   Mru   File Name      Modified Date                  Create Date                    Access Date                    File Attr                 Path
+------- ----- -------------- ------------------------------ ------------------------------ ------------------------------ ------------------------- ----
+0       0     enu-dsk        2009-07-14 02:36:06 UTC+0000   2009-07-14 03:20:10 UTC+0000   2009-07-14 03:20:10 UTC+0000   DIR                       C:\Program Files\Common Files\SpeechEngines\Microsoft\TTS20\en-US\enu-dsk
+***************************************************************************
+

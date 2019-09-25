@@ -1,0 +1,187 @@
+Frame 43: 31 bytes on wire (248 bits), 31 bytes captured (248 bits) on interface 0
+Bluetooth
+Bluetooth Linux Monitor Transport
+Bluetooth HCI ACL Packet
+    .... 1110 0000 0001 = Connection Handle: 0xe01
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 27
+    Data
+    [Connect in frame: 10]
+    [Source BD_ADDR: f2:58:d2:95:31:6f (f2:58:d2:95:31:6f)]
+    [Source Device Name: ]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: 00:00:00_00:00:00 (00:00:00:00:00:00)]
+    [Destination Device Name: ]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 23
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read By Type Response (0x09)
+    Length: 7
+    Attribute Data, Handle: 0x005c, Characteristic Handle: 0x005d, UUID: Jawbone
+        Handle: 0x005c (Unknown: GATT Characteristic Declaration)
+        Characteristic Properties: 0x08, Write
+        Characteristic Value Handle: 0x005d (Jawbone)
+        UUID: Jawbone (0xfedd)
+    Attribute Data, Handle: 0x005e, Characteristic Handle: 0x005f, UUID: Coin, Inc.
+        Handle: 0x005e (Jawbone: GATT Characteristic Declaration)
+        Characteristic Properties: 0x02, Read
+        Characteristic Value Handle: 0x005f (Coin, Inc.)
+        UUID: Coin, Inc. (0xfede)
+    Attribute Data, Handle: 0x0060, Characteristic Handle: 0x0061, UUID: Design SHIFT
+        Handle: 0x0060 (Coin, Inc.: GATT Characteristic Declaration)
+        Characteristic Properties: 0x02, Read
+        Characteristic Value Handle: 0x0061 (Design SHIFT)
+        UUID: Design SHIFT (0xfedf)
+    [UUID: GATT Characteristic Declaration (0x2803)]
+    [Request in Frame: 41]
+
+
+
+Frame 46: 31 bytes on wire (248 bits), 31 bytes captured (248 bits) on interface 0
+Bluetooth
+Bluetooth Linux Monitor Transport
+Bluetooth HCI ACL Packet
+    .... 1110 0000 0001 = Connection Handle: 0xe01
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 27
+    Data
+    [Connect in frame: 10]
+    [Source BD_ADDR: f2:58:d2:95:31:6f (f2:58:d2:95:31:6f)]
+    [Source Device Name: ]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: 00:00:00_00:00:00 (00:00:00:00:00:00)]
+    [Destination Device Name: ]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 23
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read By Type Response (0x09)
+    Length: 7
+    Attribute Data, Handle: 0x0062, Characteristic Handle: 0x0063, UUID: Apple, Inc.
+        Handle: 0x0062 (Design SHIFT: GATT Characteristic Declaration)
+        Characteristic Properties: 0x0a, Write, Read
+        Characteristic Value Handle: 0x0063 (Apple, Inc.)
+        UUID: Apple, Inc. (0xfed0)
+    Attribute Data, Handle: 0x0064, Characteristic Handle: 0x0065, UUID: Apple, Inc.
+        Handle: 0x0064 (Apple, Inc.: GATT Characteristic Declaration)
+        Characteristic Properties: 0x0a, Write, Read
+        Characteristic Value Handle: 0x0065 (Apple, Inc.)
+        UUID: Apple, Inc. (0xfed1)
+    Attribute Data, Handle: 0x0066, Characteristic Handle: 0x0067, UUID: Apple, Inc.
+        Handle: 0x0066 (Apple, Inc.: GATT Characteristic Declaration)
+        Characteristic Properties: 0x02, Read
+        Characteristic Value Handle: 0x0067 (Apple, Inc.)
+        UUID: Apple, Inc. (0xfed2)
+    [UUID: GATT Characteristic Declaration (0x2803)]
+    [Request in Frame: 44]
+
+
+Frame 49: 17 bytes on wire (136 bits), 17 bytes captured (136 bits) on interface 0
+Bluetooth
+Bluetooth Linux Monitor Transport
+Bluetooth HCI ACL Packet
+    .... 1110 0000 0001 = Connection Handle: 0xe01
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 13
+    Data
+    [Connect in frame: 10]
+    [Source BD_ADDR: f2:58:d2:95:31:6f (f2:58:d2:95:31:6f)]
+    [Source Device Name: ]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: 00:00:00_00:00:00 (00:00:00:00:00:00)]
+    [Destination Device Name: ]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 9
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read By Type Response (0x09)
+    Length: 7
+    Attribute Data, Handle: 0x0068, Characteristic Handle: 0x0069, UUID: Apple, Inc.
+        Handle: 0x0068 (Apple, Inc.: GATT Characteristic Declaration)
+            [Characteristic UUID: Apple, Inc. (0xfed2)]
+            [UUID: GATT Characteristic Declaration (0x2803)]
+        Characteristic Properties: 0x0a, Write, Read
+            0... .... = Extended Properties: False
+            .0.. .... = Authenticated Signed Writes: False
+            ..0. .... = Indicate: False
+            ...0 .... = Notify: False
+            .... 1... = Write: True
+            .... .0.. = Write without Response: False
+            .... ..1. = Read: True
+            .... ...0 = Broadcast: False
+        Characteristic Value Handle: 0x0069 (Apple, Inc.)
+            [UUID: Apple, Inc. (0xfed3)]
+        UUID: Apple, Inc. (0xfed3)
+    [UUID: GATT Characteristic Declaration (0x2803)]
+    [Request in Frame: 47]
+
+
+Frame 52: 31 bytes on wire (248 bits), 31 bytes captured (248 bits) on interface 0
+Bluetooth
+Bluetooth Linux Monitor Transport
+Bluetooth HCI ACL Packet
+    .... 1110 0000 0001 = Connection Handle: 0xe01
+    ..10 .... .... .... = PB Flag: First Automatically Flushable Packet (2)
+    00.. .... .... .... = BC Flag: Point-To-Point (0)
+    Data Total Length: 27
+    Data
+    [Connect in frame: 10]
+    [Source BD_ADDR: f2:58:d2:95:31:6f (f2:58:d2:95:31:6f)]
+    [Source Device Name: ]
+    [Source Role: Unknown (0)]
+    [Destination BD_ADDR: 00:00:00_00:00:00 (00:00:00:00:00:00)]
+    [Destination Device Name: ]
+    [Destination Role: Unknown (0)]
+    [Current Mode: Unknown (-1)]
+Bluetooth L2CAP Protocol
+    Length: 23
+    CID: Attribute Protocol (0x0004)
+Bluetooth Attribute Protocol
+    Opcode: Read By Type Response (0x09)
+    Length: 21
+    Attribute Data, Handle: 0x006a, Characteristic Handle: 0x006b, UUID128: Unknown
+        Handle: 0x006a (Apple, Inc.: GATT Characteristic Declaration)
+            [Characteristic UUID: Apple, Inc. (0xfed3)]
+            [UUID: GATT Characteristic Declaration (0x2803)]
+        Characteristic Properties: 0x1a, Notify, Write, Read
+            0... .... = Extended Properties: False
+            .0.. .... = Authenticated Signed Writes: False
+            ..0. .... = Indicate: False
+            ...1 .... = Notify: True
+            .... 1... = Write: True
+            .... .0.. = Write without Response: False
+            .... ..1. = Read: True
+            .... ...0 = Broadcast: False
+        Characteristic Value Handle: 0x006b (Unknown)
+            [UUID: 0000fec10000351221180009af100700]
+        UUID: 000710af0900182112350000c1fe0000
+    [UUID: GATT Characteristic Declaration (0x2803)]
+    [Request in Frame: 50]
+
+
+
+
+
+MH H H MH H M H M H M H M H H H M M M H M H H H M 
+
+M H H H M H H M H M H M H M H H H M M M H M H H H M
+
+MH H H MH HMHM HMH MH H HMM MH MHH HM 
+
+.- - - .- -.-. -.- .- - -.. .- .-- -.
+
+Message - ATTACKATDAWN
+
+SHA1(MESSAGE) = 14c8cfaa269659f52dd76cce43469554cfd5aedc
+
+inctf{14c8cfaa269659f52dd76cce43469554cfd5aedc}

