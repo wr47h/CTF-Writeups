@@ -1,9 +1,14 @@
 # CTF (Capture The Flag) writeups
 
+- [2020 Writeups](#2020)
 - [2019 Writeups](#2019)
 - [2018 Writeups](#2018)
 - [2017 Writeups](#2017)
 
+# 2020
+### [BatPwn CTF 2020](https://github.com/wr47h/CTF-Writeups/tree/master/2020/BatPwn)
+### [Pwn2Win CTF 2020](https://github.com/wr47h/CTF-Writeups/tree/master/2020/Pwn2Win/Androids%20Encryption)
+### [HSCTF 7](https://github.com/wr47h/CTF-Writeups/tree/master/2020/HSCTF%207)
 
 # 2019
 ### [CONFidence CTF 2019](https://github.com/wr47h/CTF-Writeups/tree/master/2019/CONFidence%20CTF%202019/)
