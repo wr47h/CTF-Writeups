@@ -1,0 +1,4 @@
+batpwn{mi5c_chall5_are_aw35om3}
+
+# C:\Users\SHREYANSH\Desktop\wr47h\CTFs\BatPwn\Loppy Whoopy\new\A8B8_source_from_JADX\resources\res\drawable\url.png:
+    1: https://pastebin.com/wR7uvAyw

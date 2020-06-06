@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/bat" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/logintext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="200dp" android:hint="Username" android:ems="10" android:inputType="text"/>
+    <Button android:textColor="#131109" android:textColorHighlight="#ac2121" android:textColorHint="#ed3b3b" android:textColorLink="#dc3a3a" android:id="@+id/logbtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="58dp" android:text="Admin Login" android:layout_below="@+id/pastxt" android:onClick="addash"/>
+    <EditText android:id="@+id/pastxt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:hint="Password" android:ems="10" android:layout_below="@+id/logintext" android:inputType="textPassword"/>
+    <Button android:id="@+id/button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="Guest Login" android:layout_below="@+id/logbtn" android:onClick="dash"/>
+    <TextView android:textSize="24sp" android:id="@+id/textView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Admin Login was removed in production but did we removed the Admin&apos;s................"/>
+</RelativeLayout>

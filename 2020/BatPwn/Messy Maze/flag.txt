@@ -1,0 +1,4 @@
+Flag: PRetty_MUch_A_mAzeIng
+
+# After choice of 2 cmp, set $eip = 0x56555000 + 0x753
+and then continue

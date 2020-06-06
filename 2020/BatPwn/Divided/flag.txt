@@ -1,0 +1,4 @@
+batpwn{a55ets_ar3_53c0nd_l0ve}
+
+# Second half in binary
+# First half in database, aes ecb, key in code 0000011111000001

@@ -1,0 +1,1 @@
+nc challenges.ctfd.io 30095
