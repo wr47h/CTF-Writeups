@@ -59,7 +59,7 @@ if (isset($password))
 <a href='./?code'>Source Code</a> 1
 ```
 
-So we need `if (hasher($user)==hasher($password) and $user!=$password)` i.e different `$user` and `$password` but an equal `hasher()`. In fact we don't need `hasher()` to return the same result thanks to == similar to the problem `MD5 Games 1`.  
+So we need `if (hasher($user)==hasher($password) and $user!=$password)` i.e different `$user` and `$password` but an equal `hasher()` value. In fact we don't need `hasher()` to return the same result thanks to == similar to the problem `MD5 Games 1`.  
 
 In fact we want `hasher($user)` and `hasher($password)` to match `/^0e[0-9]{8}$/`.  
 
