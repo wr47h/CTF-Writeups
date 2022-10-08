@@ -37,7 +37,7 @@ Problem
 --------
 Download the login private key, then run:
 
-ssh -p 31337 -i login shjail@shelljail1.wpictf.xyz
+`ssh -p 31337 -i login shjail@shelljail1.wpictf.xyz`
 
 redundant servers on 31338 and 31339
 
