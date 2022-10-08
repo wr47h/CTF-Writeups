@@ -1,4 +1,4 @@
-# CTF (Capture The Flag) writeups
+# CTF (Capture The Flag) Writeups
 
 - [2020 Writeups](#2020)
 - [2019 Writeups](#2019)
