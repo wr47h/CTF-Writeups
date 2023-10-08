@@ -32,7 +32,7 @@ The target number is always the same as the challenge number, making the game
 progressively harder. The chosen digit appears to be randomly selected from
 1-9.
 
-General approach: use Nodes to model the expression tree so that we know where
+General approach: Use Nodes to model the expression tree so that we know where
 parentheses are needed. Each Node knows both how to evaluate its value and how
 to convert itself to a string.
 
@@ -46,17 +46,17 @@ shorter string representation than the previous Node that evaluated to that
 int, update the mapping. Prune Nodes that have longer string representations
 and Nodes that have string representations longer than 31 characters.
 
-Continue until a Node evaluates to the target number and its string
+Continue until a Node evaluates equal to the target number and its string
 representation is less than 32 characters.
 
 Other than that, I'll let the code speak for itself. The parenthesis logic is
-pretty janky, I'm sure there's probably a better way to have done that.
+a bit complex, and there's probably a better way to have done that.
 
 After solving 100 challenges, we get the following:
 
 ```
  [+] Challenge 100 - The number 100 using only the digit 8: 888/88*(888/88)
-  [+] Correct!
+ [+] Correct!
  [+] WOW, the flag is: 3DS{y0U_aR3_g00d_w1TH_nUmb3rS}
 ```
 
@@ -72,7 +72,7 @@ never seen it fail to make it to the end of 1000.
 
 ```
  [+] Challenge 1000 - The number 1000 using only the digit 3: 3/3+333*3
-  [+] Correct!
+ [+] Correct!
  [+] WOW, the flag is: 3DS{y0U_aR3_R34LLY_1nS4n3_w1TH_nUmb3rS}
 ```
 [Script](single.py)
