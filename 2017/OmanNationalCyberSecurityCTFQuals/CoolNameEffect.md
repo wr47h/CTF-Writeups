@@ -39,7 +39,7 @@ We are presented with a form to give the input text which after processing gives
 })(jQuery, window);
 ```
 
-So we download the webpage, replace the javascript with the clean one and add two lines in the javascript indicated by a `->`,
+After downloading the webpage, wee replace the javascript with the clean one and add two lines in the javascript indicated by a `->`,
 
 ```javascript
 (function(j, w) {
@@ -54,9 +54,9 @@ So we download the webpage, replace the javascript with the clean one and add tw
             f += ([]["entries"]() + "")[3];
             f += (+(35))["to" + String["name"]](36);
             legacyAlert(z.join('') + f)
-	 -> console.log(legacyAlert);
+	 -> console.log(legacyAlert); // Added here
         };
- -> newAlert();
+ -> newAlert(); // Added here
     w.alert = newAlert;
     w.prompt = newAlert;
     w.confirm = newAlert;
