@@ -12,7 +12,7 @@ ORME.flag
 3. shuf or iconv
 
 
-** Good method **
+**Good method**
 ------------------
 
 Use linux's loader
