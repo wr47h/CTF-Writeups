@@ -1,4 +1,4 @@
-b = [0x00000049,
+part2 = [0x00000049,
 0x0000001a,
 0x0000001f,
 0x0000000a,
@@ -48,7 +48,7 @@ b = [0x00000049,
 0x00000057]
 
 
-a = [0x0000003d,
+part1 = [0x0000003d,
 0x0000002e,
 0x0000005b,
 0x0000000c,
@@ -59,7 +59,9 @@ a = [0x0000003d,
 0x0000002f,
 0x0000000e,
 0x00000053,
-0x00000051] + b
+0x00000051]
+
+comb = part1 + part2
 
 
 f = ''
@@ -69,8 +71,8 @@ for i in a:
 print(f)
 
 x = "batpwn{"
-c = ''
+flag = ''
 for i in range(len(x)):
-	c += chr(ord(x[i]) ^ ord(f[i]))
+	flag += chr(ord(x[i]) ^ ord(f[i]))
 
-print(c)
+print(flag)
