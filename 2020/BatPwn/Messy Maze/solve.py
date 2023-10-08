@@ -73,6 +73,7 @@ print(f)
 x = "batpwn{"
 flag = ''
 for i in range(len(x)):
+	# Take XOR
 	flag += chr(ord(x[i]) ^ ord(f[i]))
 
 print(flag)
